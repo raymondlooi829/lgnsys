@@ -1,0 +1,151 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+body{
+	margin:0;
+	padding:0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.headers{
+	position:absolute;
+	height:50px;
+	width:100%;
+	background-color: #35475e;
+	border-bottom: 1px solid #2d3d51;
+	float: left;
+}
+.headers a{
+	list-style: none;
+	margin: 10px;
+	padding: 0;
+	display: inline-block;
+	padding:0 20px;
+	text-decoration:  none;
+	color: #fff;
+
+}
+
+.header{
+	position:absolute;
+	height:50px;
+	width:100%;
+	background-color: #35475e;
+	border-bottom: 1px solid #2d3d51;
+	float: left;
+}
+
+.header a{
+	list-style: none;
+	margin: 10px;
+	padding: 0;
+	display: inline-block;
+	padding:0 20px;
+	text-decoration:  none;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: 'Lato';
+}
+
+.header a:hover
+{
+	text-decoration: none;
+  	color: lightgrey;
+}
+
+.header-right{
+	float:right;
+}
+
+.side-nav{
+  display: flex;
+}
+
+.nav-left{
+	width:100px;
+	background-color:#35475e;
+	padding-top:50px;
+	flex:25%;
+}
+
+.nav-left ul{
+	list-style: none;
+	padding: 10px;
+	margin:10px;
+}
+
+.nav-left ul li
+{
+	padding: 30px 20px;	
+	border-bottom: 1px solid #333;
+	position: relative;
+}
+
+.nav-left ul li.active:before {
+    position: absolute;
+    width: 4px;
+    height: 100%;
+    top: 10px;
+    left: 10px;
+    background-color: #fff;
+}
+
+.nav-left ul li a
+{
+	color: #fff;
+	text-decoration: none; 
+	display: block;
+}
+
+.nav-left ul li i 
+{
+	color: #0497df;
+    min-width: 20px;
+    text-align: center;
+	font-size: 25px;
+
+}
+
+.nav-left ul li span:nth-child(2) {
+    margin-left: 10px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.nav-left {
+  flex: 25%;
+  padding: 15px 0;
+  font-size: 25px;
+}
+
+.nav-left h2 {
+  padding-left: 8px;
+}
+
+/* main content styles */
+.main-content {
+   flex:75%;
+   padding:15px;
+   margin:50px;
+   margin-left:15px;
+   margin-bottom:50%;
+   padding-top:20px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #35475e;
+  color: white;
+  text-align: center;
+}
+
+
+
+
